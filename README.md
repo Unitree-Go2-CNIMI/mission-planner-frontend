@@ -13,7 +13,7 @@ Unitree Go2 robot.
 - **Execution control :** pause, resume, abort, or skip the current task at any
   point during a mission run
 
-Please note that this is the frontend part of the [go2_cnimi_ws](https://github.com/Unitree-Go2-CNIMI/go2_cnimi_ws)
+Please note that this is the frontend part of the [go2_cnimi_ws](https://github.com/Unitree-Go2-CNIMI/go2-cnimi-autonomous-navigation)
 project. The backend exposes two interfaces this app connects to: `rosbridge_server`
 (WebSocket, port `9090`) for live robot data, and `mission_api` (Flask HTTP, port
 `5001`) for mission management and execution control. Both must be running on the
